@@ -1,0 +1,22 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+#big_titulo{
+    text-align: center;
+}
+
+.paragrafos{
+    text-indent: 25px;
+}
+
+.meus_titulos{
+    text-decoration: underline;
+    background-color: burlywood;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}

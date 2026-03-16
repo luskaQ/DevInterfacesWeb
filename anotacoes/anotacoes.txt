@@ -1,0 +1,40 @@
+Aula 09/03
+
+Ordem de css:
+
+1- Inline
+2- Interno
+3- Externo
+
+
+#Id = Para itens unicos (identifica para JS tambem)
+.Classes = Para varios itens
+
+
+Aula 12/03
+
+BoxModel
+
+Border -> borda (muitas vezes invisivel) que engloba o conteudo do elemento
+Padding -> Espaço do conteudo ate sua borda 
+Margin ->
+
+           Borda
+|            |
+|<--margin-->|<--padding--> CONTEUDO
+|            |
+
+
+Ordem: Top, right, bottom, left
+
+            ^
+  Width     |
+<-------->  | Height
+            |
+
+% é relativa ao tamanho do elemento pai 
+
+
+box-sizing: quem vai ser afetado para manter o padding (borda aumentada ou elemento encolhido)
+
+display: como o elemento se comporta (bloco, inline)

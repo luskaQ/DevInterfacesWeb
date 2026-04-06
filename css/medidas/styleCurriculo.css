@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html{
+    font-size: 62.5%;
+}
+.flexbox{
+    display: flex;
+    font-size: 2rem;
+}
+
+.cabecalho {
+    background-color: darkgoldenrod;
+    text-align: center;
+    font-size: 2rem;
+    height: 50vh;
+}
+
+.cabecalho img {
+    width: 20vw;
+    height: 25vh;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cabecalho-conteudo {
+    padding-top: 10px;
+}
+
+.cabecalho h1 {
+    background-color: rgb(0, 0, 0, .3);
+    width: 30vw;
+    border-radius: 10px;
+    border-bottom: 40px, solid brown;
+    margin: 0 auto;
+}
+
+
+.cabecalho-conteudo nav a {
+    color: black;
+    border: 1px solid white;
+    background-color: rgb(0, 0, 0, .3);
+    text-decoration: none;
+}
+
+.cabecalho-conteudo nav a:hover {
+    background-color: rgb(0, 0, 0, 0);
+}
+
+.cabecalho-conteudo nav ul {
+    padding: 0;
+    margin: 10px 0 10px;
+}
+
+.cabecalho-conteudo nav li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+
+main {
+    background-image: url(imgs/pesca.svg);
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section {
+    background-color: rgb(221, 221, 152, 0.7);
+    width: 25vw;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+section p {
+    text-align: justify;
+}
+
+footer {
+    background-color: darkgoldenrod;
+    text-align: center;
+    font-size: 1.6em;
+    
+}
+
+footer p {
+    margin: 0 auto;
+    text-shadow: 2px, 2px, 2px black;
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 40vw;
+    color: white;
+}

@@ -1,0 +1,68 @@
+html{
+    background-color: #ebe8e8;
+    font-family: sans-serif;
+}
+
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 40px rgba(0,0,0,0.3);
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div__input{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 12px 15px;
+    width: calc(50% - 20px); /*pegue 50% da largura do pai e subtraia 20px para desconsiderar o padding e margin da div*/
+    gap: 10px;
+
+    box-sizing: border-box; /*faz o padding entrar dentro do calculo do width, nao ser somado depois (fazendo a div ficar maior)*/
+}
+
+.div__input img{
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+}
+
+.div__input input{
+    border: none;
+    width: 80%;
+}
+
+
+.btn{ 
+    background-color: cyan;
+    border: none;
+    width: 80%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}

@@ -5,7 +5,7 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
     /*Para o padding nao ser somado ao tamanho da div*/
-    font-family: fraunces;
+    font-family: fraunces, sans-serif;
 }
 
 body {
@@ -29,18 +29,15 @@ body {
     padding: 45px;
 }
 
-.cabecalho-conteudo__titulo {
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: bold;
-    /*font-family: 'Fraunces', serif;*/
-}
 
 .cabecalho-conteudo__nav ul {
     display: flex;
     list-style-type: none;
     gap: 16px;
     font-size: 18px;
+    font-family: Barlow;
+    font-weight: 700;
+
 }
 
 .cabecalho-conteudo__nav a {
@@ -52,6 +49,7 @@ body {
 .cabecalho-conteudo__contact {
     border-radius: 30px;
     background-color: #ffffff;
+    font-family: fraunces;
 }
 
 .cabecalho-conteudo__contact b {
@@ -121,7 +119,7 @@ body {
     color: #23313f;
 }
 
-.grid__text__conteudo a {
+.grid__text__conteudo_a1 {
     font-family: 'Fraunces', serif;
     font-size: 1.2em;
     font-weight: bold;
@@ -129,6 +127,23 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     border-bottom: 6px solid #fcf6bb;
+}
+
+.grid__text__conteudo_a2 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #23313f;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 6px solid #ffd5d2;
+}
+
+.cabecalho-conteudo__nav b {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    padding: 15px;
+
 }
 
 .grid__image1 {
@@ -230,7 +245,7 @@ body {
     display: flex;
     align-items: center;
     width: 80vw;
-    justify-content:space-around ;
+    justify-content: space-around;
     padding: 20px;
 }
 
@@ -240,7 +255,7 @@ body {
     align-items: center;
 }
 
-.main-opinioes__card p{
+.main-opinioes__card p {
     font-size: 2em;
     color: #6a666b;
     text-align: center;
@@ -263,17 +278,19 @@ body {
     margin-top: 40px;
 }
 
-.card__nomeFuncao p{
+.card__nomeFuncao p {
     font-size: 1.5em;
     opacity: 50%;
 }
-.card__nomeFuncao h2{
+
+.card__nomeFuncao h2 {
     color: #23303e;
     font-size: 2em;
     font-weight: bold;
     margin: 0;
 
 }
+
 .main-album {
     display: flex;
     margin: 0;
@@ -284,35 +301,36 @@ body {
     width: 25vw;
 }
 
-.rodape{
+.rodape {
     font-size: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     background-color: #6bdbc5;
     height: 50vh;
 }
 
-.rodape-titulo{
+.rodape-titulo {
     font-size: 2em;
     font-weight: bold;
     color: #007a63;
 }
 
-.rodape ul{
+.rodape ul {
     display: flex;
     margin-top: 50px;
     gap: 60px;
     list-style: none;
     padding: 0;
 }
-.rodape a{
+
+.rodape a {
     text-decoration: none;
     color: #04947f;
 }
 
-.rodape-redessociais{
+.rodape-redessociais {
     margin-top: 100px;
     display: flex;
     gap: 20px;

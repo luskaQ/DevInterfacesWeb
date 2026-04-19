@@ -17,7 +17,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30vw;
+    width: 25vw;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 5px 10px 40px rgba(0, 0, 0, 0.3);
@@ -27,14 +27,32 @@ form {
 fieldset {
     border: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 legend {
+    width: 100%;
+    text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-weight: bold;
     font-size: 1.3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+fieldset a{
+    margin: 15px 0 0 0;
+    width: 80%;
+}
+
+.img-circulo{
+    margin-top: 20px;
 }
 
 .div__input {
@@ -44,7 +62,7 @@ legend {
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 12px 15px;
-    width: calc(50% - 20px);
+    width: 80%;
     /*pegue 50% da largura do pai e subtraia 20px para desconsiderar o padding e margin da div*/
     gap: 10px;
 
@@ -72,17 +90,18 @@ legend {
     background-color: #2464c5;
     color: white;
     border: none;
-    width: calc(100% - 45px);
+    width: 80%;
     height: 6vh;
     padding: 10px;
     cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 1.2em;
 }
 
+
 ::placeholder {
-    color: black;
+    color: rgba(0, 0, 0, .5);
 }
 
 input:focus {
